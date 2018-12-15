@@ -275,7 +275,7 @@ Partial Class Form1
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form1"
-        Me.Text = "Chaziz Web Explorer Codename NetChaziz - Alpha 1.8 Pre-Release 3"
+        Me.Text = "NetChaziz - Alpha 1.8 RC"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.Panel1.ResumeLayout(False)
@@ -419,4 +419,8 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents Panel1 As Panel
+
+    Private Sub WebBrowser1_DocumentCompleted(sender As Object, e As WebBrowserDocumentCompletedEventArgs) Handles WebBrowser1.DocumentCompleted
+
+    End Sub
 End Class

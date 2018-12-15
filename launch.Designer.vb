@@ -35,7 +35,7 @@ Partial Class launch
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(231, 70)
+        Me.Label5.Location = New System.Drawing.Point(230, 50)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(215, 20)
         Me.Label5.TabIndex = 9
@@ -45,7 +45,7 @@ Partial Class launch
         '
         Me.Label4.AutoSize = True
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(506, 57)
+        Me.Label4.Location = New System.Drawing.Point(229, 34)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(171, 13)
         Me.Label4.TabIndex = 8
@@ -56,17 +56,17 @@ Partial Class launch
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(229, 12)
+        Me.Label1.Location = New System.Drawing.Point(229, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(429, 25)
+        Me.Label1.Size = New System.Drawing.Size(111, 25)
         Me.Label1.TabIndex = 7
-        Me.Label1.Text = "Chaziz Web Explorer Codename NetChaziz"
+        Me.Label1.Text = "NetChaziz"
         '
         'PictureBox1
         '
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PictureBox1.Image = Global.IEChaziz.My.Resources.Resources.Sans_titre
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(2, 3)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(211, 73)
         Me.PictureBox1.TabIndex = 6
@@ -77,7 +77,7 @@ Partial Class launch
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Courier New", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(229, 37)
+        Me.Label2.Location = New System.Drawing.Point(426, 9)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(185, 33)
         Me.Label2.TabIndex = 10
@@ -89,7 +89,7 @@ Partial Class launch
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.SteelBlue
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(689, 107)
+        Me.ClientSize = New System.Drawing.Size(623, 81)
         Me.ControlBox = False
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label5)
@@ -98,7 +98,7 @@ Partial Class launch
         Me.Controls.Add(Me.PictureBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Name = "launch"
-        Me.Text = "Chaziz Web Browser - Loading..."
+        Me.Text = "NetChaziz - Loading..."
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

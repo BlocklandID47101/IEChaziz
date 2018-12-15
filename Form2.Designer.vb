@@ -81,7 +81,7 @@ Partial Class Form2
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(461, 112)
+        Me.Label4.Location = New System.Drawing.Point(474, 112)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(207, 20)
         Me.Label4.TabIndex = 4
@@ -104,9 +104,9 @@ Partial Class Form2
         Me.Label2.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(240, 40)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(257, 19)
+        Me.Label2.Size = New System.Drawing.Size(180, 19)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Version Alpha 1.8 Pre-Release"
+        Me.Label2.Text = "Version Alpha 1.8 RC"
         '
         'Label1
         '
@@ -114,9 +114,9 @@ Partial Class Form2
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(239, 15)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(429, 25)
+        Me.Label1.Size = New System.Drawing.Size(111, 25)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Chaziz Web Explorer Codename NetChaziz"
+        Me.Label1.Text = "NetChaziz"
         '
         'PictureBox1
         '
