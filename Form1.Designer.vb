@@ -148,7 +148,7 @@ Partial Class Form1
         Me.MainMenuStrip = Me.MenuStrip1
         Me.MaximizeBox = False
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "Chaziz Web Explorer Codename NetChaziz - Alpha 1.7.1"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
@@ -165,7 +165,6 @@ Partial Class Form1
     Friend WithEvents Button5 As Button
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Me.Text = "Chaziz Web Explorer Codename NetChaziz - Alpha 1.7.1"
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
