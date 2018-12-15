@@ -10,3 +10,22 @@ C:\Users\chazp\AppData\Local\Temporary Projects\IEChaziz\obj\Debug\IEChaziz.exe
 C:\Users\chazp\AppData\Local\Temporary Projects\IEChaziz\obj\Debug\IEChaziz.xml
 C:\Users\chazp\AppData\Local\Temporary Projects\IEChaziz\obj\Debug\IEChaziz.pdb
 C:\Users\chazp\AppData\Local\Temporary Projects\IEChaziz\obj\Debug\IEChaziz.Form2.resources
+C:\Users\chazp\source\repos\IEChaziz\IEChaziz\bin\Debug\IEChaziz.exe
+C:\Users\chazp\source\repos\IEChaziz\IEChaziz\bin\Debug\IEChaziz.pdb
+C:\Users\chazp\source\repos\IEChaziz\IEChaziz\bin\Debug\IEChaziz.xml
+C:\Users\chazp\source\repos\IEChaziz\IEChaziz\obj\Debug\IEChaziz.Form1.resources
+C:\Users\chazp\source\repos\IEChaziz\IEChaziz\obj\Debug\IEChaziz.Form2.resources
+C:\Users\chazp\source\repos\IEChaziz\IEChaziz\obj\Debug\IEChaziz.Resources.resources
+C:\Users\chazp\source\repos\IEChaziz\IEChaziz\obj\Debug\IEChaziz.vbproj.GenerateResource.cache
+C:\Users\chazp\source\repos\IEChaziz\IEChaziz\obj\Debug\IEChaziz.vbproj.CoreCompileInputs.cache
+C:\Users\chazp\source\repos\IEChaziz\IEChaziz\obj\Debug\IEChaziz.exe
+C:\Users\chazp\source\repos\IEChaziz\IEChaziz\obj\Debug\IEChaziz.xml
+C:\Users\chazp\source\repos\IEChaziz\IEChaziz\obj\Debug\IEChaziz.pdb
+C:\Users\chazp\source\repos\IEChaziz\IEChaziz\bin\Debug\IEChaziz.exe.config
+C:\Users\chazp\source\repos\IEChaziz\IEChaziz\bin\Debug\IEChaziz.exe.manifest
+C:\Users\chazp\source\repos\IEChaziz\IEChaziz\bin\Debug\IEChaziz.application
+C:\Users\chazp\source\repos\IEChaziz\IEChaziz\obj\Debug\IEChaziz.vbprojAssemblyReference.cache
+C:\Users\chazp\source\repos\IEChaziz\IEChaziz\obj\Debug\IEChaziz.TrustInfo.xml
+C:\Users\chazp\source\repos\IEChaziz\IEChaziz\obj\Debug\IEChaziz.exe.manifest
+C:\Users\chazp\source\repos\IEChaziz\IEChaziz\obj\Debug\IEChaziz.application
+C:\Users\chazp\source\repos\IEChaziz\IEChaziz\obj\Debug\IEChaziz.launch.resources
