@@ -30,14 +30,14 @@ Partial Class Form2
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.OOFBUTTON = New System.Windows.Forms.Button()
         Me.OOFver = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
-        Me.TabPage2.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage2.SuspendLayout()
         Me.SuspendLayout()
         '
         'TabControl1
@@ -53,13 +53,14 @@ Partial Class Form2
         '
         'TabPage1
         '
-        Me.TabPage1.BackColor = System.Drawing.Color.Gainsboro
+        Me.TabPage1.BackColor = System.Drawing.Color.CornflowerBlue
         Me.TabPage1.Controls.Add(Me.Label5)
         Me.TabPage1.Controls.Add(Me.Label4)
         Me.TabPage1.Controls.Add(Me.Label3)
         Me.TabPage1.Controls.Add(Me.Label2)
         Me.TabPage1.Controls.Add(Me.Label1)
         Me.TabPage1.Controls.Add(Me.PictureBox1)
+        Me.TabPage1.ForeColor = System.Drawing.Color.White
         Me.TabPage1.Location = New System.Drawing.Point(4, 29)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
@@ -80,11 +81,11 @@ Partial Class Form2
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(535, 45)
+        Me.Label4.Location = New System.Drawing.Point(461, 112)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(148, 20)
+        Me.Label4.Size = New System.Drawing.Size(207, 20)
         Me.Label4.TabIndex = 4
-        Me.Label4.Text = "(C) ChazizYT 2018-2019"
+        Me.Label4.Text = "(C) ChazizYT and PF94 2018-2019"
         '
         'Label3
         '
@@ -116,6 +117,15 @@ Partial Class Form2
         Me.Label1.Size = New System.Drawing.Size(429, 25)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Chaziz Web Explorer Codename NetChaziz"
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.IEChaziz.My.Resources.Resources.Sans_titre
+        Me.PictureBox1.Location = New System.Drawing.Point(6, 15)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(213, 73)
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
         '
         'TabPage2
         '
@@ -151,15 +161,6 @@ Partial Class Form2
         Me.OOFver.TabIndex = 0
         Me.OOFver.Text = "Windows Placeholder"
         '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.IEChaziz.My.Resources.Resources.Sans_titre
-        Me.PictureBox1.Location = New System.Drawing.Point(6, 15)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(213, 73)
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
-        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -178,9 +179,9 @@ Partial Class Form2
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.TabPage1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage2.ResumeLayout(False)
         Me.TabPage2.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
