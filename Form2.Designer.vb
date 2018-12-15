@@ -33,6 +33,7 @@ Partial Class Form2
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.OOFver = New System.Windows.Forms.Label()
+        Me.OOFBUTTON = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
@@ -124,6 +125,7 @@ Partial Class Form2
         '
         'TabPage2
         '
+        Me.TabPage2.Controls.Add(Me.OOFBUTTON)
         Me.TabPage2.Controls.Add(Me.OOFver)
         Me.TabPage2.Location = New System.Drawing.Point(4, 22)
         Me.TabPage2.Name = "TabPage2"
@@ -139,11 +141,21 @@ Partial Class Form2
         Me.OOFver.BackColor = System.Drawing.Color.DarkRed
         Me.OOFver.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OOFver.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.OOFver.Location = New System.Drawing.Point(136, 147)
+        Me.OOFver.Location = New System.Drawing.Point(141, 44)
         Me.OOFver.Name = "OOFver"
         Me.OOFver.Size = New System.Drawing.Size(378, 42)
         Me.OOFver.TabIndex = 0
         Me.OOFver.Text = "Windows Placeholder"
+        '
+        'OOFBUTTON
+        '
+        Me.OOFBUTTON.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.OOFBUTTON.Location = New System.Drawing.Point(148, 270)
+        Me.OOFBUTTON.Name = "OOFBUTTON"
+        Me.OOFBUTTON.Size = New System.Drawing.Size(356, 42)
+        Me.OOFBUTTON.TabIndex = 1
+        Me.OOFBUTTON.Text = "In the meantime open Winver.exe"
+        Me.OOFBUTTON.UseVisualStyleBackColor = True
         '
         'Form2
         '
@@ -180,4 +192,5 @@ Partial Class Form2
     Friend WithEvents Label3 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents OOFver As Label
+    Friend WithEvents OOFBUTTON As Button
 End Class

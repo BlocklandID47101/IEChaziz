@@ -19,4 +19,8 @@
     Private Sub Label6_Click(sender As Object, e As EventArgs) Handles OOFver.Click
 
     End Sub
+
+    Private Sub OOFBUTTON_Click(sender As Object, e As EventArgs) Handles OOFBUTTON.Click
+        Diagnostics.Process.Start("winver.exe")
+    End Sub
 End Class
