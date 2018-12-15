@@ -32,8 +32,8 @@ Partial Class Form2
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.OOFver = New System.Windows.Forms.Label()
         Me.OOFBUTTON = New System.Windows.Forms.Button()
+        Me.OOFver = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
@@ -110,9 +110,9 @@ Partial Class Form2
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(234, 37)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(99, 13)
+        Me.Label2.Size = New System.Drawing.Size(90, 13)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Version Alpha 1.7.1"
+        Me.Label2.Text = "Version Alpha 1.8"
         '
         'Label1
         '
@@ -135,6 +135,16 @@ Partial Class Form2
         Me.TabPage2.Text = "About Windows"
         Me.TabPage2.UseVisualStyleBackColor = True
         '
+        'OOFBUTTON
+        '
+        Me.OOFBUTTON.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.OOFBUTTON.Location = New System.Drawing.Point(148, 270)
+        Me.OOFBUTTON.Name = "OOFBUTTON"
+        Me.OOFBUTTON.Size = New System.Drawing.Size(356, 42)
+        Me.OOFBUTTON.TabIndex = 1
+        Me.OOFBUTTON.Text = "In the meantime open Winver.exe"
+        Me.OOFBUTTON.UseVisualStyleBackColor = True
+        '
         'OOFver
         '
         Me.OOFver.AutoSize = True
@@ -146,16 +156,6 @@ Partial Class Form2
         Me.OOFver.Size = New System.Drawing.Size(378, 42)
         Me.OOFver.TabIndex = 0
         Me.OOFver.Text = "Windows Placeholder"
-        '
-        'OOFBUTTON
-        '
-        Me.OOFBUTTON.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.OOFBUTTON.Location = New System.Drawing.Point(148, 270)
-        Me.OOFBUTTON.Name = "OOFBUTTON"
-        Me.OOFBUTTON.Size = New System.Drawing.Size(356, 42)
-        Me.OOFBUTTON.TabIndex = 1
-        Me.OOFBUTTON.Text = "In the meantime open Winver.exe"
-        Me.OOFBUTTON.UseVisualStyleBackColor = True
         '
         'Form2
         '

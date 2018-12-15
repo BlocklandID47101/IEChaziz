@@ -37,6 +37,26 @@ IEChaziz
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:IEChaziz.My.Resources.Resources.Button_Refresh_icon">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:IEChaziz.My.Resources.Resources.favicon">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:IEChaziz.My.Resources.Resources.favicon__1_">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:IEChaziz.My.Resources.Resources.favicon_vfl1123">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:IEChaziz.My.Resources.Resources.Final3">
 <summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
@@ -47,12 +67,32 @@ IEChaziz
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:IEChaziz.My.Resources.Resources.home">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:IEChaziz.My.Resources.Resources.ie_icon_24_AU6_icon">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:IEChaziz.My.Resources.Resources.Information1">
 <summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:IEChaziz.My.Resources.Resources.Print_icon">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:IEChaziz.My.Resources.Resources.Sans_titre">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:IEChaziz.My.Resources.Resources.Search2">
 <summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
