@@ -26,15 +26,17 @@ Partial Class Form2
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.Label5 = New System.Windows.Forms.Label()
+        Me.OOFver = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
+        Me.TabPage2.SuspendLayout()
         Me.SuspendLayout()
         '
         'PictureBox1
@@ -72,10 +74,20 @@ Partial Class Form2
         Me.TabPage1.Text = "About Browser"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(13, 97)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(215, 20)
+        Me.Label5.TabIndex = 5
+        Me.Label5.Text = "Proudly hosted on GitHub"
+        '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(234, 65)
+        Me.Label4.Location = New System.Drawing.Point(234, 59)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(122, 13)
         Me.Label4.TabIndex = 4
@@ -112,6 +124,7 @@ Partial Class Form2
         '
         'TabPage2
         '
+        Me.TabPage2.Controls.Add(Me.OOFver)
         Me.TabPage2.Location = New System.Drawing.Point(4, 22)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
@@ -120,15 +133,17 @@ Partial Class Form2
         Me.TabPage2.Text = "About Windows"
         Me.TabPage2.UseVisualStyleBackColor = True
         '
-        'Label5
+        'OOFver
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(13, 97)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(215, 20)
-        Me.Label5.TabIndex = 5
-        Me.Label5.Text = "Proudly hosted on GitHub"
+        Me.OOFver.AutoSize = True
+        Me.OOFver.BackColor = System.Drawing.Color.DarkRed
+        Me.OOFver.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.OOFver.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.OOFver.Location = New System.Drawing.Point(136, 147)
+        Me.OOFver.Name = "OOFver"
+        Me.OOFver.Size = New System.Drawing.Size(378, 42)
+        Me.OOFver.TabIndex = 0
+        Me.OOFver.Text = "Windows Placeholder"
         '
         'Form2
         '
@@ -149,6 +164,8 @@ Partial Class Form2
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.TabPage1.PerformLayout()
+        Me.TabPage2.ResumeLayout(False)
+        Me.TabPage2.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -162,4 +179,5 @@ Partial Class Form2
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label5 As Label
+    Friend WithEvents OOFver As Label
 End Class
