@@ -6,3 +6,5 @@ It currently requires .NET Framework 3.0 to be installed (should be included on 
 It is currently only tested on the almost-lastest build of Windows 10 Home Insider preview.
 
 The assets are a placeholder and in the near future new assets might be added.
+
+It should be also be noted that Chaziz Web Explorer is NOT complete and is in early alpha.
