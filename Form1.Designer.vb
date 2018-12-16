@@ -26,6 +26,14 @@ Partial Class Form1
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.InternetOptionsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.YouTubeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ROBLOXToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GoogleToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.VidLiiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PF94ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Process1 = New System.Diagnostics.Process()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
@@ -37,12 +45,6 @@ Partial Class Form1
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.InternetOptionsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.YouTubeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ROBLOXToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.GoogleToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FolderBrowserDialog1 = New System.Windows.Forms.FolderBrowserDialog()
         Me.MenuStrip1.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -67,13 +69,13 @@ Partial Class Form1
         Me.WebBrowser1.Location = New System.Drawing.Point(0, 123)
         Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
         Me.WebBrowser1.Name = "WebBrowser1"
-        Me.WebBrowser1.Size = New System.Drawing.Size(1177, 737)
+        Me.WebBrowser1.Size = New System.Drawing.Size(1177, 627)
         Me.WebBrowser1.TabIndex = 2
         Me.WebBrowser1.Url = New System.Uri("http://google.com", System.UriKind.Absolute)
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.BackColor = System.Drawing.SystemColors.MenuBar
+        Me.MenuStrip1.BackColor = System.Drawing.Color.WhiteSmoke
         Me.MenuStrip1.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.InternetOptionsToolStripMenuItem, Me.AaToolStripMenuItem, Me.AboutToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
@@ -81,6 +83,62 @@ Partial Class Form1
         Me.MenuStrip1.Size = New System.Drawing.Size(1177, 24)
         Me.MenuStrip1.TabIndex = 8
         Me.MenuStrip1.Text = "MenuStrip1"
+        '
+        'InternetOptionsToolStripMenuItem
+        '
+        Me.InternetOptionsToolStripMenuItem.Image = Global.IEChaziz.My.Resources.Resources.icon_options
+        Me.InternetOptionsToolStripMenuItem.Name = "InternetOptionsToolStripMenuItem"
+        Me.InternetOptionsToolStripMenuItem.Size = New System.Drawing.Size(122, 20)
+        Me.InternetOptionsToolStripMenuItem.Text = "Internet Options"
+        '
+        'AaToolStripMenuItem
+        '
+        Me.AaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.YouTubeToolStripMenuItem, Me.ROBLOXToolStripMenuItem, Me.GoogleToolStripMenuItem, Me.VidLiiToolStripMenuItem})
+        Me.AaToolStripMenuItem.Image = Global.IEChaziz.My.Resources.Resources._1f310
+        Me.AaToolStripMenuItem.Name = "AaToolStripMenuItem"
+        Me.AaToolStripMenuItem.Size = New System.Drawing.Size(83, 20)
+        Me.AaToolStripMenuItem.Text = "Websites"
+        '
+        'YouTubeToolStripMenuItem
+        '
+        Me.YouTubeToolStripMenuItem.Image = Global.IEChaziz.My.Resources.Resources.favicon_vfl1123
+        Me.YouTubeToolStripMenuItem.Name = "YouTubeToolStripMenuItem"
+        Me.YouTubeToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.YouTubeToolStripMenuItem.Text = "YouTube"
+        '
+        'ROBLOXToolStripMenuItem
+        '
+        Me.ROBLOXToolStripMenuItem.Image = Global.IEChaziz.My.Resources.Resources.favicon
+        Me.ROBLOXToolStripMenuItem.Name = "ROBLOXToolStripMenuItem"
+        Me.ROBLOXToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ROBLOXToolStripMenuItem.Text = "ROBLOX"
+        '
+        'GoogleToolStripMenuItem
+        '
+        Me.GoogleToolStripMenuItem.Image = Global.IEChaziz.My.Resources.Resources.favicon__1_
+        Me.GoogleToolStripMenuItem.Name = "GoogleToolStripMenuItem"
+        Me.GoogleToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.GoogleToolStripMenuItem.Text = "Google"
+        '
+        'VidLiiToolStripMenuItem
+        '
+        Me.VidLiiToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PF94ToolStripMenuItem})
+        Me.VidLiiToolStripMenuItem.Name = "VidLiiToolStripMenuItem"
+        Me.VidLiiToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.VidLiiToolStripMenuItem.Text = "VidLii"
+        '
+        'PF94ToolStripMenuItem
+        '
+        Me.PF94ToolStripMenuItem.Name = "PF94ToolStripMenuItem"
+        Me.PF94ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.PF94ToolStripMenuItem.Text = "PF94"
+        '
+        'AboutToolStripMenuItem
+        '
+        Me.AboutToolStripMenuItem.Image = Global.IEChaziz.My.Resources.Resources.Information1
+        Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(68, 20)
+        Me.AboutToolStripMenuItem.Text = "About"
         '
         'Process1
         '
@@ -107,11 +165,11 @@ Partial Class Form1
         '
         Me.Panel1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Panel1.BackColor = System.Drawing.Color.LightGray
+        Me.Panel1.BackColor = System.Drawing.Color.Gainsboro
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Controls.Add(Me.TextBox1)
         Me.Panel1.Controls.Add(Me.Button1)
-        Me.Panel1.Location = New System.Drawing.Point(190, 96)
+        Me.Panel1.Location = New System.Drawing.Point(190, 94)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(794, 23)
         Me.Panel1.TabIndex = 14
@@ -123,9 +181,9 @@ Partial Class Form1
         Me.Button1.ForeColor = System.Drawing.Color.Black
         Me.Button1.Image = Global.IEChaziz.My.Resources.Resources._290
         Me.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button1.Location = New System.Drawing.Point(734, 1)
+        Me.Button1.Location = New System.Drawing.Point(734, 0)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(57, 25)
+        Me.Button1.Size = New System.Drawing.Size(57, 24)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Enter"
         Me.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -134,7 +192,7 @@ Partial Class Form1
         'Button8
         '
         Me.Button8.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button8.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button8.BackColor = System.Drawing.Color.Gainsboro
         Me.Button8.BackgroundImage = Global.IEChaziz.My.Resources.Resources.Search2
         Me.Button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -147,7 +205,7 @@ Partial Class Form1
         '
         'Button7
         '
-        Me.Button7.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button7.BackColor = System.Drawing.Color.Gainsboro
         Me.Button7.BackgroundImage = Global.IEChaziz.My.Resources.Resources.close
         Me.Button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -161,7 +219,7 @@ Partial Class Form1
         'Button6
         '
         Me.Button6.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button6.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button6.BackColor = System.Drawing.Color.Gainsboro
         Me.Button6.BackgroundImage = Global.IEChaziz.My.Resources.Resources.Print_icon
         Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button6.Location = New System.Drawing.Point(916, 28)
@@ -173,7 +231,7 @@ Partial Class Form1
         'Button5
         '
         Me.Button5.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button5.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button5.BackColor = System.Drawing.Color.Gainsboro
         Me.Button5.BackgroundImage = Global.IEChaziz.My.Resources.Resources.home
         Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button5.Location = New System.Drawing.Point(990, 27)
@@ -184,18 +242,18 @@ Partial Class Form1
         '
         'Button4
         '
-        Me.Button4.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button4.BackColor = System.Drawing.Color.Gainsboro
         Me.Button4.BackgroundImage = Global.IEChaziz.My.Resources.Resources.Button_Refresh_icon
         Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button4.Location = New System.Drawing.Point(190, 27)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(69, 64)
+        Me.Button4.Size = New System.Drawing.Size(69, 63)
         Me.Button4.TabIndex = 5
         Me.Button4.UseVisualStyleBackColor = False
         '
         'Button3
         '
-        Me.Button3.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button3.BackColor = System.Drawing.Color.Gainsboro
         Me.Button3.BackgroundImage = Global.IEChaziz.My.Resources.Resources.back_button
         Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button3.Location = New System.Drawing.Point(0, 27)
@@ -206,7 +264,7 @@ Partial Class Form1
         '
         'Button2
         '
-        Me.Button2.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button2.BackColor = System.Drawing.Color.Gainsboro
         Me.Button2.BackgroundImage = Global.IEChaziz.My.Resources.Resources.forward_button
         Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button2.Location = New System.Drawing.Point(99, 27)
@@ -215,56 +273,13 @@ Partial Class Form1
         Me.Button2.TabIndex = 3
         Me.Button2.UseVisualStyleBackColor = False
         '
-        'InternetOptionsToolStripMenuItem
-        '
-        Me.InternetOptionsToolStripMenuItem.Image = Global.IEChaziz.My.Resources.Resources.icon_options
-        Me.InternetOptionsToolStripMenuItem.Name = "InternetOptionsToolStripMenuItem"
-        Me.InternetOptionsToolStripMenuItem.Size = New System.Drawing.Size(122, 20)
-        Me.InternetOptionsToolStripMenuItem.Text = "Internet Options"
-        '
-        'AaToolStripMenuItem
-        '
-        Me.AaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.YouTubeToolStripMenuItem, Me.ROBLOXToolStripMenuItem, Me.GoogleToolStripMenuItem})
-        Me.AaToolStripMenuItem.Image = Global.IEChaziz.My.Resources.Resources._1f310
-        Me.AaToolStripMenuItem.Name = "AaToolStripMenuItem"
-        Me.AaToolStripMenuItem.Size = New System.Drawing.Size(83, 20)
-        Me.AaToolStripMenuItem.Text = "Websites"
-        '
-        'YouTubeToolStripMenuItem
-        '
-        Me.YouTubeToolStripMenuItem.Image = Global.IEChaziz.My.Resources.Resources.favicon_vfl1123
-        Me.YouTubeToolStripMenuItem.Name = "YouTubeToolStripMenuItem"
-        Me.YouTubeToolStripMenuItem.Size = New System.Drawing.Size(120, 22)
-        Me.YouTubeToolStripMenuItem.Text = "YouTube"
-        '
-        'ROBLOXToolStripMenuItem
-        '
-        Me.ROBLOXToolStripMenuItem.Image = Global.IEChaziz.My.Resources.Resources.favicon
-        Me.ROBLOXToolStripMenuItem.Name = "ROBLOXToolStripMenuItem"
-        Me.ROBLOXToolStripMenuItem.Size = New System.Drawing.Size(120, 22)
-        Me.ROBLOXToolStripMenuItem.Text = "ROBLOX"
-        '
-        'GoogleToolStripMenuItem
-        '
-        Me.GoogleToolStripMenuItem.Image = Global.IEChaziz.My.Resources.Resources.favicon__1_
-        Me.GoogleToolStripMenuItem.Name = "GoogleToolStripMenuItem"
-        Me.GoogleToolStripMenuItem.Size = New System.Drawing.Size(120, 22)
-        Me.GoogleToolStripMenuItem.Text = "Google"
-        '
-        'AboutToolStripMenuItem
-        '
-        Me.AboutToolStripMenuItem.Image = Global.IEChaziz.My.Resources.Resources.Information1
-        Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(68, 20)
-        Me.AboutToolStripMenuItem.Text = "About"
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1177, 863)
+        Me.ClientSize = New System.Drawing.Size(1177, 749)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Button7)
@@ -279,7 +294,7 @@ Partial Class Form1
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form1"
-        Me.Text = "NetChaziz - Alpha 1.8"
+        Me.Text = "NetChaziz - Beta 1.0"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.Panel1.ResumeLayout(False)
@@ -429,4 +444,19 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents FolderBrowserDialog1 As FolderBrowserDialog
+    Friend WithEvents VidLiiToolStripMenuItem As ToolStripMenuItem
+
+    Private Sub VidLiiToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VidLiiToolStripMenuItem.Click
+        WebBrowser1.Navigate("vidlii.com")
+    End Sub
+
+    Friend WithEvents PF94ToolStripMenuItem As ToolStripMenuItem
+
+    Private Sub GamerappaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PF94ToolStripMenuItem.Click
+        WebBrowser1.Navigate("vidlii.com/PF94")
+    End Sub
+
+    Private Sub Process1_Exited(sender As Object, e As EventArgs) Handles Process1.Exited
+
+    End Sub
 End Class
