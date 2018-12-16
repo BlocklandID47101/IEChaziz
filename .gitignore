@@ -20,3 +20,27 @@ bin/Debug/IEChaziz.exe.config
 bin/Debug/IEChaziz.exe
 bin/Debug/IEChaziz.application
 bin/Debug/app.publish/IEChaziz.exe
+publish/IEChaziz.application
+obj/Debug/TempPE/My Project.Resources.Designer.vb.dll
+obj/Debug/Interop.WMPLib.dll
+obj/Debug/IEChaziz.xml
+obj/Debug/IEChaziz.vbprojAssemblyReference.cache
+obj/Debug/IEChaziz.vbproj.ResolveComReference.cache
+obj/Debug/IEChaziz.vbproj.GenerateResource.cache
+obj/Debug/IEChaziz.vbproj.FileListAbsolute.txt
+obj/Debug/IEChaziz.vbproj.CoreCompileInputs.cache
+obj/Debug/IEChaziz.TrustInfo.xml
+obj/Debug/IEChaziz.Resources.resources
+obj/Debug/IEChaziz.pdb
+obj/Debug/IEChaziz.Media.resources
+obj/Debug/IEChaziz.launch.resources
+obj/Debug/IEChaziz.Form2.resources
+obj/Debug/IEChaziz.Form1.resources
+obj/Debug/IEChaziz.exe.manifest
+obj/Debug/IEChaziz.exe
+obj/Debug/IEChaziz.application
+obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+obj/Debug/DesignTimeResolveAssemblyReferences.cache
+obj/Debug/AxInterop.WMPLib.dll
+bin/Debug/Interop.WMPLib.dll
+bin/Debug/AxInterop.WMPLib.dll
