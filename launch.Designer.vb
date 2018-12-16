@@ -24,7 +24,6 @@ Partial Class launch
     Private Sub InitializeComponent()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -47,29 +46,18 @@ Partial Class launch
         Me.Label4.ForeColor = System.Drawing.Color.White
         Me.Label4.Location = New System.Drawing.Point(229, 34)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(213, 13)
+        Me.Label4.Size = New System.Drawing.Size(198, 13)
         Me.Label4.TabIndex = 8
-        Me.Label4.Text = "(C) ChazizYT and GAMERAPPA 2018-2019"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(229, 3)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(111, 25)
-        Me.Label1.TabIndex = 7
-        Me.Label1.Text = "NetChaziz"
+        Me.Label4.Text = "By Chaziz and GAMERAPPA 2018-2019"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Courier New", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Arial Narrow", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(426, 1)
+        Me.Label2.Location = New System.Drawing.Point(228, 1)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(185, 33)
+        Me.Label2.Size = New System.Drawing.Size(147, 33)
         Me.Label2.TabIndex = 10
         Me.Label2.Text = "LOADING..."
         '
@@ -87,18 +75,17 @@ Partial Class launch
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.SteelBlue
+        Me.BackColor = System.Drawing.Color.CornflowerBlue
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(623, 81)
+        Me.ClientSize = New System.Drawing.Size(456, 81)
         Me.ControlBox = False
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Name = "launch"
-        Me.Text = "NetChaziz - Loading..."
+        Me.Text = "netChaziz - Loading..."
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -107,7 +94,6 @@ Partial Class launch
 
     Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label2 As Label
 End Class

@@ -26,17 +26,11 @@ Partial Class Form1
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
-        Me.InternetOptionsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.YouTubeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ROBLOXToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.GoogleToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.VidLiiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PF94ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MediaPlayerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Process1 = New System.Diagnostics.Process()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.FolderBrowserDialog1 = New System.Windows.Forms.FolderBrowserDialog()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
@@ -45,7 +39,14 @@ Partial Class Form1
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.FolderBrowserDialog1 = New System.Windows.Forms.FolderBrowserDialog()
+        Me.InternetOptionsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.YouTubeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ROBLOXToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GoogleToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.VidLiiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PF94ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -77,68 +78,18 @@ Partial Class Form1
         '
         Me.MenuStrip1.BackColor = System.Drawing.Color.WhiteSmoke
         Me.MenuStrip1.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.InternetOptionsToolStripMenuItem, Me.AaToolStripMenuItem, Me.AboutToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.InternetOptionsToolStripMenuItem, Me.AaToolStripMenuItem, Me.AboutToolStripMenuItem, Me.MediaPlayerToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(1177, 24)
         Me.MenuStrip1.TabIndex = 8
         Me.MenuStrip1.Text = "MenuStrip1"
         '
-        'InternetOptionsToolStripMenuItem
+        'MediaPlayerToolStripMenuItem
         '
-        Me.InternetOptionsToolStripMenuItem.Image = Global.IEChaziz.My.Resources.Resources.icon_options
-        Me.InternetOptionsToolStripMenuItem.Name = "InternetOptionsToolStripMenuItem"
-        Me.InternetOptionsToolStripMenuItem.Size = New System.Drawing.Size(122, 20)
-        Me.InternetOptionsToolStripMenuItem.Text = "Internet Options"
-        '
-        'AaToolStripMenuItem
-        '
-        Me.AaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.YouTubeToolStripMenuItem, Me.ROBLOXToolStripMenuItem, Me.GoogleToolStripMenuItem, Me.VidLiiToolStripMenuItem})
-        Me.AaToolStripMenuItem.Image = Global.IEChaziz.My.Resources.Resources._1f310
-        Me.AaToolStripMenuItem.Name = "AaToolStripMenuItem"
-        Me.AaToolStripMenuItem.Size = New System.Drawing.Size(83, 20)
-        Me.AaToolStripMenuItem.Text = "Websites"
-        '
-        'YouTubeToolStripMenuItem
-        '
-        Me.YouTubeToolStripMenuItem.Image = Global.IEChaziz.My.Resources.Resources.favicon_vfl1123
-        Me.YouTubeToolStripMenuItem.Name = "YouTubeToolStripMenuItem"
-        Me.YouTubeToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.YouTubeToolStripMenuItem.Text = "YouTube"
-        '
-        'ROBLOXToolStripMenuItem
-        '
-        Me.ROBLOXToolStripMenuItem.Image = Global.IEChaziz.My.Resources.Resources.favicon
-        Me.ROBLOXToolStripMenuItem.Name = "ROBLOXToolStripMenuItem"
-        Me.ROBLOXToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.ROBLOXToolStripMenuItem.Text = "ROBLOX"
-        '
-        'GoogleToolStripMenuItem
-        '
-        Me.GoogleToolStripMenuItem.Image = Global.IEChaziz.My.Resources.Resources.favicon__1_
-        Me.GoogleToolStripMenuItem.Name = "GoogleToolStripMenuItem"
-        Me.GoogleToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.GoogleToolStripMenuItem.Text = "Google"
-        '
-        'VidLiiToolStripMenuItem
-        '
-        Me.VidLiiToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PF94ToolStripMenuItem})
-        Me.VidLiiToolStripMenuItem.Name = "VidLiiToolStripMenuItem"
-        Me.VidLiiToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.VidLiiToolStripMenuItem.Text = "VidLii"
-        '
-        'PF94ToolStripMenuItem
-        '
-        Me.PF94ToolStripMenuItem.Name = "PF94ToolStripMenuItem"
-        Me.PF94ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.PF94ToolStripMenuItem.Text = "PF94"
-        '
-        'AboutToolStripMenuItem
-        '
-        Me.AboutToolStripMenuItem.Image = Global.IEChaziz.My.Resources.Resources.Information1
-        Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(68, 20)
-        Me.AboutToolStripMenuItem.Text = "About"
+        Me.MediaPlayerToolStripMenuItem.Name = "MediaPlayerToolStripMenuItem"
+        Me.MediaPlayerToolStripMenuItem.Size = New System.Drawing.Size(87, 20)
+        Me.MediaPlayerToolStripMenuItem.Text = "mediaChaziz"
         '
         'Process1
         '
@@ -273,6 +224,62 @@ Partial Class Form1
         Me.Button2.TabIndex = 3
         Me.Button2.UseVisualStyleBackColor = False
         '
+        'InternetOptionsToolStripMenuItem
+        '
+        Me.InternetOptionsToolStripMenuItem.Image = Global.IEChaziz.My.Resources.Resources.icon_options
+        Me.InternetOptionsToolStripMenuItem.Name = "InternetOptionsToolStripMenuItem"
+        Me.InternetOptionsToolStripMenuItem.Size = New System.Drawing.Size(122, 20)
+        Me.InternetOptionsToolStripMenuItem.Text = "Internet Options"
+        '
+        'AaToolStripMenuItem
+        '
+        Me.AaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.YouTubeToolStripMenuItem, Me.ROBLOXToolStripMenuItem, Me.GoogleToolStripMenuItem, Me.VidLiiToolStripMenuItem})
+        Me.AaToolStripMenuItem.Image = Global.IEChaziz.My.Resources.Resources._1f310
+        Me.AaToolStripMenuItem.Name = "AaToolStripMenuItem"
+        Me.AaToolStripMenuItem.Size = New System.Drawing.Size(83, 20)
+        Me.AaToolStripMenuItem.Text = "Websites"
+        '
+        'YouTubeToolStripMenuItem
+        '
+        Me.YouTubeToolStripMenuItem.Image = Global.IEChaziz.My.Resources.Resources.favicon_vfl1123
+        Me.YouTubeToolStripMenuItem.Name = "YouTubeToolStripMenuItem"
+        Me.YouTubeToolStripMenuItem.Size = New System.Drawing.Size(120, 22)
+        Me.YouTubeToolStripMenuItem.Text = "YouTube"
+        '
+        'ROBLOXToolStripMenuItem
+        '
+        Me.ROBLOXToolStripMenuItem.Image = Global.IEChaziz.My.Resources.Resources.favicon
+        Me.ROBLOXToolStripMenuItem.Name = "ROBLOXToolStripMenuItem"
+        Me.ROBLOXToolStripMenuItem.Size = New System.Drawing.Size(120, 22)
+        Me.ROBLOXToolStripMenuItem.Text = "ROBLOX"
+        '
+        'GoogleToolStripMenuItem
+        '
+        Me.GoogleToolStripMenuItem.Image = Global.IEChaziz.My.Resources.Resources.favicon__1_
+        Me.GoogleToolStripMenuItem.Name = "GoogleToolStripMenuItem"
+        Me.GoogleToolStripMenuItem.Size = New System.Drawing.Size(120, 22)
+        Me.GoogleToolStripMenuItem.Text = "Google"
+        '
+        'VidLiiToolStripMenuItem
+        '
+        Me.VidLiiToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PF94ToolStripMenuItem})
+        Me.VidLiiToolStripMenuItem.Name = "VidLiiToolStripMenuItem"
+        Me.VidLiiToolStripMenuItem.Size = New System.Drawing.Size(120, 22)
+        Me.VidLiiToolStripMenuItem.Text = "VidLii"
+        '
+        'PF94ToolStripMenuItem
+        '
+        Me.PF94ToolStripMenuItem.Name = "PF94ToolStripMenuItem"
+        Me.PF94ToolStripMenuItem.Size = New System.Drawing.Size(101, 22)
+        Me.PF94ToolStripMenuItem.Text = "PF94"
+        '
+        'AboutToolStripMenuItem
+        '
+        Me.AboutToolStripMenuItem.Image = Global.IEChaziz.My.Resources.Resources.Information1
+        Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(68, 20)
+        Me.AboutToolStripMenuItem.Text = "About"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -294,7 +301,7 @@ Partial Class Form1
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form1"
-        Me.Text = "NetChaziz - Beta 1.0"
+        Me.Text = "netChaziz - Beta 1.0"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.Panel1.ResumeLayout(False)
@@ -458,5 +465,11 @@ Partial Class Form1
 
     Private Sub Process1_Exited(sender As Object, e As EventArgs) Handles Process1.Exited
 
+    End Sub
+
+    Friend WithEvents MediaPlayerToolStripMenuItem As ToolStripMenuItem
+
+    Private Sub MediaPlayerToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MediaPlayerToolStripMenuItem.Click
+        Media.Show()
     End Sub
 End Class
