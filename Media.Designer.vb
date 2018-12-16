@@ -33,7 +33,8 @@ Partial Class Media
         '
         'AxWindowsMediaPlayer1
         '
-        Me.AxWindowsMediaPlayer1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.AxWindowsMediaPlayer1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.AxWindowsMediaPlayer1.Enabled = True
         Me.AxWindowsMediaPlayer1.Location = New System.Drawing.Point(0, 28)
@@ -73,8 +74,6 @@ Partial Class Media
         Me.ClientSize = New System.Drawing.Size(398, 275)
         Me.Controls.Add(Me.ToolStrip1)
         Me.Controls.Add(Me.AxWindowsMediaPlayer1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
-        Me.MaximizeBox = False
         Me.Name = "Media"
         Me.Text = "mediaChaziz"
         CType(Me.AxWindowsMediaPlayer1, System.ComponentModel.ISupportInitialize).EndInit()
