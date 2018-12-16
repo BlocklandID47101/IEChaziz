@@ -12,15 +12,15 @@
 
     End Sub
 
-    Private Sub TabPage1_Click(sender As Object, e As EventArgs) Handles TabPage1.Click
+    Private Sub TabPage1_Click(sender As Object, e As EventArgs) 
 
     End Sub
 
-    Private Sub Label6_Click(sender As Object, e As EventArgs) Handles OOFver.Click
+    Private Sub Label6_Click(sender As Object, e As EventArgs) 
 
     End Sub
 
-    Private Sub OOFBUTTON_Click(sender As Object, e As EventArgs) Handles OOFBUTTON.Click
+    Private Sub OOFBUTTON_Click(sender As Object, e As EventArgs) 
         Diagnostics.Process.Start("winver.exe")
     End Sub
 End Class
