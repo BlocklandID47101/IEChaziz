@@ -43,6 +43,7 @@ Partial Class Form1
         Me.ROBLOXToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.GoogleToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FolderBrowserDialog1 = New System.Windows.Forms.FolderBrowserDialog()
         Me.MenuStrip1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -55,7 +56,7 @@ Partial Class Form1
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox1.Location = New System.Drawing.Point(63, 3)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(1036, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(665, 20)
         Me.TextBox1.TabIndex = 1
         '
         'WebBrowser1
@@ -63,10 +64,10 @@ Partial Class Form1
         Me.WebBrowser1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.WebBrowser1.Location = New System.Drawing.Point(0, 148)
+        Me.WebBrowser1.Location = New System.Drawing.Point(0, 123)
         Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
         Me.WebBrowser1.Name = "WebBrowser1"
-        Me.WebBrowser1.Size = New System.Drawing.Size(1177, 712)
+        Me.WebBrowser1.Size = New System.Drawing.Size(1177, 737)
         Me.WebBrowser1.TabIndex = 2
         Me.WebBrowser1.Url = New System.Uri("http://google.com", System.UriKind.Absolute)
         '
@@ -96,7 +97,7 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.ForeColor = System.Drawing.Color.DimGray
-        Me.Label1.Location = New System.Drawing.Point(3, 7)
+        Me.Label1.Location = New System.Drawing.Point(3, 5)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(54, 13)
         Me.Label1.TabIndex = 13
@@ -110,9 +111,9 @@ Partial Class Form1
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Controls.Add(Me.TextBox1)
         Me.Panel1.Controls.Add(Me.Button1)
-        Me.Panel1.Location = New System.Drawing.Point(12, 117)
+        Me.Panel1.Location = New System.Drawing.Point(190, 96)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1165, 25)
+        Me.Panel1.Size = New System.Drawing.Size(794, 23)
         Me.Panel1.TabIndex = 14
         '
         'Button1
@@ -122,7 +123,7 @@ Partial Class Form1
         Me.Button1.ForeColor = System.Drawing.Color.Black
         Me.Button1.Image = Global.IEChaziz.My.Resources.Resources._290
         Me.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button1.Location = New System.Drawing.Point(1105, 1)
+        Me.Button1.Location = New System.Drawing.Point(734, 1)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(57, 25)
         Me.Button1.TabIndex = 0
@@ -163,7 +164,7 @@ Partial Class Form1
         Me.Button6.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.Button6.BackgroundImage = Global.IEChaziz.My.Resources.Resources.Print_icon
         Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button6.Location = New System.Drawing.Point(918, 39)
+        Me.Button6.Location = New System.Drawing.Point(916, 28)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(68, 66)
         Me.Button6.TabIndex = 9
@@ -197,9 +198,9 @@ Partial Class Form1
         Me.Button3.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.Button3.BackgroundImage = Global.IEChaziz.My.Resources.Resources.back_button
         Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button3.Location = New System.Drawing.Point(12, 27)
+        Me.Button3.Location = New System.Drawing.Point(0, 27)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(83, 84)
+        Me.Button3.Size = New System.Drawing.Size(95, 90)
         Me.Button3.TabIndex = 4
         Me.Button3.UseVisualStyleBackColor = False
         '
@@ -208,9 +209,9 @@ Partial Class Form1
         Me.Button2.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.Button2.BackgroundImage = Global.IEChaziz.My.Resources.Resources.forward_button
         Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button2.Location = New System.Drawing.Point(101, 27)
+        Me.Button2.Location = New System.Drawing.Point(99, 27)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(83, 84)
+        Me.Button2.Size = New System.Drawing.Size(88, 90)
         Me.Button2.TabIndex = 3
         Me.Button2.UseVisualStyleBackColor = False
         '
@@ -278,7 +279,7 @@ Partial Class Form1
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form1"
-        Me.Text = "NetChaziz - Alpha 1.8 RC"
+        Me.Text = "NetChaziz - Alpha 1.8"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.Panel1.ResumeLayout(False)
@@ -426,4 +427,6 @@ Partial Class Form1
     Private Sub WebBrowser1_DocumentCompleted(sender As Object, e As WebBrowserDocumentCompletedEventArgs) Handles WebBrowser1.DocumentCompleted
 
     End Sub
+
+    Friend WithEvents FolderBrowserDialog1 As FolderBrowserDialog
 End Class

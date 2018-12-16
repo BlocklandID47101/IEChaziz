@@ -81,11 +81,11 @@ Partial Class Form2
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(474, 112)
+        Me.Label4.Location = New System.Drawing.Point(420, 112)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(207, 20)
+        Me.Label4.Size = New System.Drawing.Size(258, 20)
         Me.Label4.TabIndex = 4
-        Me.Label4.Text = "(C) ChazizYT and PF94 2018-2019"
+        Me.Label4.Text = "(C) ChazizYT and GAMERAPPA 2018-2019"
         '
         'Label3
         '
@@ -104,9 +104,9 @@ Partial Class Form2
         Me.Label2.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(240, 40)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(180, 19)
+        Me.Label2.Size = New System.Drawing.Size(152, 19)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Version Alpha 1.8 RC"
+        Me.Label2.Text = "Version Alpha 1.8"
         '
         'Label1
         '
