@@ -12,6 +12,6 @@ It has been tested on...
 
 ----------------------------------------------
 
-Windows 8 Developer Preview Build 8102
+Windows 8 Developer Preview Build 8102 (mediaChaziz didn't work)
 
 Windows 10 Home Insider Preview Build 18298
