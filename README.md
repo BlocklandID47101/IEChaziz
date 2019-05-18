@@ -1,5 +1,6 @@
+(SEMI-RETIRED, THIS PROJECT IS NOT MAINTAINED IN THE MEANTIME)
 # NetChaziz
-NetChaziz is a Internet Explorer Compatible(1) Browser and is expanding to also be a File Explorer as well. And also there's plans for a mini-Media Player.
+NetChaziz is a Internet Explorer Container and is expanding to also be a File Explorer as well. And also there's plans for a mini-Media Player.
 
 It currently requires .NET Framework 4.0 to be installed. It does work on Windows XP. https://blogs.msdn.microsoft.com/dotnet/p/dotnet4xp/
 
