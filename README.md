@@ -1,4 +1,4 @@
-(SEMI-RETIRED, THIS PROJECT IS NOT MAINTAINED IN THE MEANTIME)
+(RETIRED, I HAD NO CODING EXPERIENCE WHEN I MADE THIS. THIS IS SIMPLY JUST INTERNET EXPLORER RUNNING ON A BAD UI)
 # NetChaziz
 NetChaziz is a Internet Explorer Container and is expanding to also be a File Explorer as well. And also there's plans for a mini-Media Player.
 
